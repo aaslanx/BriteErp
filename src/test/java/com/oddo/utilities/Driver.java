@@ -3,9 +3,15 @@ package com.oddo.utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
 
 public class Driver {
 
+    private Driver() {
+
+    }
 
     private static WebDriver driver;  //we only use it once
 
@@ -13,24 +19,18 @@ public class Driver {
 
 
         if (driver == null) {
-            switch (MyConfig.getProperty("browser")) {
-                case "chrome":
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
-                    break;
-                case "firefox":
-                    WebDriverManager.firefoxdriver().setup();
-                    break;
+            String s = MyConfig.getProperty("browser");
+            if ("chrome".equals(s)) {
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
+
+            } else if ("firefox".equals(s)) {
+                WebDriverManager.firefoxdriver().setup();
+                driver = new FirefoxDriver();
+
             }
         }
         return driver;
 
-//
-//        WebDriverManager.chromedriver().setup();
-//        return driver;
     }
-        public static void closeDriver(){
-        if(driver!=null);
-        driver.close();
-        }
 }

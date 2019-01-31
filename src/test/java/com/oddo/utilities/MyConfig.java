@@ -10,12 +10,16 @@ public class MyConfig {
 
 
     static {
-        String path = "config.properties";
 
         try {
+
+            String path = "config.properties";
+
             FileInputStream file = new FileInputStream(path); // reads file
             properties = new Properties();
             properties.load(file);
+
+            file.close();
 
         } catch (IOException e) {
             e.printStackTrace();
