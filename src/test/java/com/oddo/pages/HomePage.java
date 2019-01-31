@@ -26,7 +26,7 @@ public class HomePage {
     @FindBy(xpath = "(//button[@class='btn btn-primary'])")
     public WebElement logInButton;
 
-   @FindBy(id="//a[@class='oe_menu_toggler']")
+   @FindBy(xpath="//*[@id=\"oe_main_menu_navbar\"]/div[2]/ul[1]/li[4]/a/span")
     public WebElement contactsModule;
 
 
