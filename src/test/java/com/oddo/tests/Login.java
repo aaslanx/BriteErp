@@ -19,7 +19,7 @@ public class Login extends TestBase {
         homePage.username.sendKeys(MyConfig.getProperty("username"));
         homePage.password.sendKeys(MyConfig.getProperty("password"));
         homePage.logInButton.click();
-        homePage.contactsModule.click();
+      //  homePage.contactsModule.click();
 
 
     }
