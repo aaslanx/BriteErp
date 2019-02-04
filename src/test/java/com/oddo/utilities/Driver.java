@@ -22,7 +22,6 @@ public class Driver {
             String s = MyConfig.getProperty("browser");
             if ("chrome".equals(s)) {
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
 
             } else if ("firefox".equals(s)) {
                 WebDriverManager.firefoxdriver().setup();
