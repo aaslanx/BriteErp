@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327fe27f-45c3-4fdb-80d9-3ecbe314aaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/oddo/tests/LachinTestCases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/oddo/tests/LachinTestCases.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BriteErp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BriteErp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oddo/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oddo/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oddo/tests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oddo/tests/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oddo/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oddo/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oddo/tests/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oddo/tests/Login.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -306,7 +295,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549308298884" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549309487431" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
