@@ -13,7 +13,7 @@ public class MyConfig {
 
         try {
 
-            String path = "config.properties";
+            String path = "configuration.properties";
 
             FileInputStream file = new FileInputStream(path); // reads file
             properties = new Properties();
