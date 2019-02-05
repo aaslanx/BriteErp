@@ -1,11 +1,9 @@
 package com.oddo.tests;
 
+import com.contacts.utilities.TestBase;
 import com.oddo.pages.HomePage;
-import com.oddo.utilities.TestBase;
 import com.oddo.utilities.MyConfig;
 import org.testng.annotations.Test;
-
-import javax.security.auth.login.Configuration;
 
 public class Login extends TestBase {
 

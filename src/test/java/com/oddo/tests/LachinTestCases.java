@@ -1,12 +1,11 @@
 package com.oddo.tests;
 
 
+import com.contacts.utilities.TestBase;
 import com.oddo.pages.HomePage;
 import com.oddo.utilities.MyConfig;
-import com.oddo.utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LachinTestCases extends TestBase {
