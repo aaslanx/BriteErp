@@ -302,7 +302,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549399858641" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549400863096" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -316,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LachinTestCases.userIsAbleToClickCancel">
+  <component name="RunManager" selected="TestNG.functional_tests.a">
     <configuration name="LachinTestCases.userIsAbleToClickCancel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteErp" />
       <extension name="coverage">
@@ -389,17 +389,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="functional_tests.a" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteErp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oddo.tests.*" />
+          <option name="PATTERN" value="com.contacts.tests.functionality2.Lachin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.oddo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.oddo.tests.Login" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="PACKAGE_NAME" value="com.contacts.tests.functionality2.Lachin" />
+      <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests" />
+      <option name="METHOD_NAME" value="a" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -408,19 +408,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Login.login" />
       <item itemvalue="TestNG.LachinTestCases.userShouldnotImport" />
       <item itemvalue="TestNG.LachinTestCases.userShouldNotTestImport" />
       <item itemvalue="TestNG.LachinTestCases.userShouldNotImport" />
       <item itemvalue="TestNG.LachinTestCases.userIsAbleToClickCancel" />
+      <item itemvalue="TestNG.functional_tests.a" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.functional_tests.a" />
         <item itemvalue="TestNG.LachinTestCases.userIsAbleToClickCancel" />
         <item itemvalue="TestNG.LachinTestCases.userShouldNotImport" />
         <item itemvalue="TestNG.LachinTestCases.userShouldNotTestImport" />
         <item itemvalue="TestNG.LachinTestCases.userShouldnotImport" />
-        <item itemvalue="TestNG.Login.login" />
       </list>
     </recent_temporary>
   </component>

@@ -27,16 +27,8 @@ public class LoginPage {
 
 
     public void userLogin(){
-        emailBox.sendKeys(ConfigurationReader.getProperties("user"));
-        passwordBox.sendKeys(ConfigurationReader.getProperties("userpass"));
-        login_button.click();
-    }
-
-
-    public void managerLogin(){
-
-        emailBox.sendKeys(ConfigurationReader.getProperties("manager"));
-        passwordBox.sendKeys(ConfigurationReader.getProperties("managerpass"));
+        emailBox.sendKeys(ConfigurationReader.getProperties("username"));
+        passwordBox.sendKeys(ConfigurationReader.getProperties("password"));
         login_button.click();
     }
 
