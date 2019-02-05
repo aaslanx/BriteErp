@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="327fe27f-45c3-4fdb-80d9-3ecbe314aaa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Natalya/functional_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/functional_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Natalya/regression_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/regression_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Natalya/smoke_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/smoke_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Sergey/functional_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/functional_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Sergey/regression_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/regression_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Sergey/smoke_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/smoke_tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -285,17 +291,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="functionality3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp_online03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp_online03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -307,7 +302,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549398841814" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549399858641" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -484,7 +479,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="965" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23137973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -730,42 +724,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Natalya/smoke_tests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/smoke_tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Natalya/functional_tests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/functional_tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Natalya/regression_tests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/regression_tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Sergey/smoke_tests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/smoke_tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Sergey/regression_tests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/regression_tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality3/Sergey/functional_tests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/functional_tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
