@@ -6,7 +6,6 @@ public class Pages {
 
     private LoginPage login;
     private CalendarPage calendar;
-    private LandingPage landing;
     private CalendarListViewPage calendarListViewPage;
     private TopNavigationBar topNavigationBar;
     private ImportPage importPage;
@@ -31,14 +30,6 @@ public class Pages {
         return calendar;
     }
 
-
-
-    public LandingPage landing(){
-        if(landing==null){
-            landing = new LandingPage();
-        }
-        return landing;
-    }
 
     public CalendarListViewPage calendarListViewPage(){
         if(calendarListViewPage==null){

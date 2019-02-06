@@ -20,7 +20,7 @@ public class functional_tests extends TestBase {
 
             extentLogger.info("3. Click Brite Erp Demo");
             extentLogger.info("Expected  Result: Clicked");
-            pages.landing().BriteErpDemo_button.click();
+
 
             extentLogger.info("4. Enter username and password for Inventory Manager 2 ");
             extentLogger.info("Expected  Result: Login successful");
