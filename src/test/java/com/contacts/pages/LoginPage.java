@@ -18,12 +18,16 @@ public class LoginPage {
     @FindBy(xpath = "//div[@class='form-group field-login']/input")
     public WebElement emailBox;
 
+
     @FindBy(xpath = "//div[@class='form-group field-password']/input")
     public WebElement passwordBox;
 
     @FindBy(xpath = "//div[@class='clearfix oe_login_buttons']/button")
     public WebElement login_button;
 
+
+    @FindBy(css = "div.list-group>a:nth-of-type(2)")
+    public WebElement briteButton;
 
 
     public void userLogin(){

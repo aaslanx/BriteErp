@@ -15,6 +15,8 @@ public class Pages {
 
     //-------------------------------------------------------
 
+
+
     public LoginPage login(){
         if(login==null){
             login = new LoginPage();
