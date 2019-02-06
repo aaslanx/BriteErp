@@ -13,8 +13,6 @@ public class CalendarListViewPage {
     @FindBy(css = "button.btn.btn-primary.btn-sm.o_list_button_add")
     public WebElement create_button;
 
-
-
     @FindBy(xpath ="//div[@class='col-sm-12']//a" )
     public WebElement helpButton;
 
