@@ -26,5 +26,7 @@ public class functional_tests extends TestBase {
             extentLogger.info("Expected  Result: Login successful");
             pages.login().userLogin();
 
+
+
         }
 }

@@ -12,7 +12,36 @@ public class Pages {
     private SearchPage searchPage;
     private HelpPage helpPage;
 
+
+
+
     //-------------------------------------------------------
+
+
+
+
+
+
+private HomePage homePage;
+
+
+    public HomePage homePage(){
+
+        if(homePage==null){
+            homePage = new HomePage();
+        }
+        return homePage;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -66,6 +95,14 @@ public class Pages {
         return helpPage;
     }
 
+    private DirectMessagesPage directMessagesPage;
+
+    public DirectMessagesPage directMessagesPage() {
+        if (directMessagesPage == null) {
+            directMessagesPage = new DirectMessagesPage();
+        }
+        return directMessagesPage;
+    }
 
 
-}
+    }
