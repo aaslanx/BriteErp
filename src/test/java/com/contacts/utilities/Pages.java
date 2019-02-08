@@ -8,42 +8,19 @@ public class Pages {
     private CalendarPage calendar;
     private CalendarListViewPage calendarListViewPage;
     private TopNavigationBar topNavigationBar;
-    private ImportPage importPage;
+
     private SearchPage searchPage;
     private HelpPage helpPage;
-
-
-
-
+    private ImportUserPage importuserPage;
     //-------------------------------------------------------
 
-
-
-
-
-
-private HomePage homePage;
-
-
-    public HomePage homePage(){
-
-        if(homePage==null){
-            homePage = new HomePage();
+    // 3.we just created
+    public ImportUserPage importuserPage(){
+        if(importuserPage ==null){
+            importuserPage=new ImportUserPage();
         }
-        return homePage;
+        return importuserPage;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
     public LoginPage login(){
         if(login==null){
@@ -74,12 +51,7 @@ private HomePage homePage;
         return topNavigationBar;
     }
 
-    public ImportPage importPage(){
-        if(importPage==null){
-            importPage= new ImportPage();
-        }
-        return importPage;
-    }
+
 
     public SearchPage searchPage(){
         if(searchPage==null){
@@ -95,14 +67,6 @@ private HomePage homePage;
         return helpPage;
     }
 
-    private DirectMessagesPage directMessagesPage;
-
-    public DirectMessagesPage directMessagesPage() {
-        if (directMessagesPage == null) {
-            directMessagesPage = new DirectMessagesPage();
-        }
-        return directMessagesPage;
-    }
 
 
-    }
+}

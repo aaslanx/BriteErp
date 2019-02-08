@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327fe27f-45c3-4fdb-80d9-3ecbe314aaa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BriteErp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BriteErp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/regression_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/regression_tests/regression_tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/smoke_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/smoke_tests/smoke_tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Cheris/functional_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Cheris/regression_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Cheris/smoke_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/functional_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/regression_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/smoke_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/functional_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/regression_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/smoke_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/smoke_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/functional_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/regression_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/smoke_tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oddo/tests/LachinTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oddo/tests/LachinTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oddo/tests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oddo/tests/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oddo/utilities/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/Said/Brite837.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/Said/DirectMessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/Said/as.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,27 +18,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2114972269">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="47" />
+          <entry key="properties" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="47" />
+          <entry key="Properties" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="37" />
+          <entry key="project.open.time.0" value="18" />
+          <entry key="project.open.time.1" value="9" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="24" />
+          <entry key="java" value="2900" />
+          <entry key="properties" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2900" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Properties" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/tests/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+            <state relative-caret-position="3620">
+              <caret line="255" selection-start-line="255" selection-end-line="255" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,10 +74,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/tests/LachinTestCases.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/BrowserUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="2066">
+              <caret line="308" selection-start-line="308" selection-end-line="308" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ConfigurationReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests/regression_tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/TopNavigationBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportUserPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="133" column="89" selection-start-line="133" selection-start-column="89" selection-end-line="133" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,6 +158,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -98,21 +171,16 @@
         <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/BrowserUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ConfigurationReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/CalendarListViewPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/CalendarPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/HelpPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/SearchPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/TopNavigationBar.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Cheris/functional_tests/functional_tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/functional_tests/functional_tests.java" />
@@ -120,6 +188,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/functional_tests/functional_tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oddo/tests/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oddo/tests/LachinTestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/TopNavigationBar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/SampleTest.java" />
+        <option value="$PROJECT_DIR$/configuration.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportUserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java" />
       </list>
     </option>
@@ -132,7 +207,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="965" />
@@ -142,7 +216,6 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <showExcludedFiles Scope="false" ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -150,123 +223,118 @@
         <subPane>
           <expand>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="contacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="contacts" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="contacts" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="oddo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="oddo" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="oddo" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="functionality2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="oddo" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="functionality2" type="462c0819:PsiDirectoryNode" />
+              <item name="Lachin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="functionality2" type="462c0819:PsiDirectoryNode" />
+              <item name="Lachin" type="462c0819:PsiDirectoryNode" />
+              <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="functionality2" type="462c0819:PsiDirectoryNode" />
+              <item name="Lachin" type="462c0819:PsiDirectoryNode" />
+              <item name="regression_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549401781116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549665685804" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -276,6 +344,123 @@
       <recent name="C:\Users\saidy\IdeaProjects\BriteErp\src\test\java\com\contacts\tests\functionality1\Natalya" />
       <recent name="C:\Users\saidy\IdeaProjects\BriteErp\src\test\java\com\contacts\tests\functionality1\Cheris" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/contacts/pages/DirectMessagesPage.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/contacts/pages/HomePage.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/contacts/tests/Said/Brite837.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/contacts/tests/Said/DirectMessageTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/contacts/tests/Said/as.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Brite837.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,62 +474,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.functional_tests.Test">
-    <configuration name="LachinTestCases.userIsAbleToClickCancel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteErp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oddo.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oddo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.oddo.tests.LachinTestCases" />
-      <option name="METHOD_NAME" value="userIsAbleToClickCancel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LachinTestCases.userShouldNotImport" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteErp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oddo.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oddo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.oddo.tests.LachinTestCases" />
-      <option name="METHOD_NAME" value="userShouldNotImport" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteErp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oddo.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oddo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.oddo.tests.Login" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="functional_tests.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.functional_tests.BRIT_1305">
+    <configuration name="functional_tests.BRIT_1305" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteErp" />
       <extension name="coverage">
         <pattern>
@@ -354,7 +485,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests" />
       <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests.functional_tests" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="METHOD_NAME" value="BRIT_1305" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -362,17 +493,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functional_tests.a" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="functional_tests.BRIT_1343" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteErp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.contacts.tests.functionality2.Lachin.*" />
+          <option name="PATTERN" value="com.contacts.tests.functionality2.Lachin.functional_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.contacts.tests.functionality2.Lachin" />
-      <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests" />
-      <option name="METHOD_NAME" value="a" />
+      <option name="PACKAGE_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests.functional_tests" />
+      <option name="METHOD_NAME" value="BRIT_1343" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functional_tests.BRIT_1357" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteErp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.contacts.tests.functionality2.Lachin.functional_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests.functional_tests" />
+      <option name="METHOD_NAME" value="BRIT_1357" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functional_tests.BRIT_1379" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteErp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.contacts.tests.functionality2.Lachin.functional_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests.functional_tests" />
+      <option name="METHOD_NAME" value="BRIT_1379" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functional_tests.BRIT_1391" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteErp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.contacts.tests.functionality2.Lachin.functional_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality2.Lachin.functional_tests.functional_tests" />
+      <option name="METHOD_NAME" value="BRIT_1391" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -381,24 +566,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.LachinTestCases.userShouldNotImport" />
-      <item itemvalue="TestNG.LachinTestCases.userIsAbleToClickCancel" />
-      <item itemvalue="TestNG.functional_tests.a" />
-      <item itemvalue="TestNG.functional_tests.Test" />
-      <item itemvalue="TestNG.Login.login" />
+      <item itemvalue="TestNG.functional_tests.BRIT_1343" />
+      <item itemvalue="TestNG.functional_tests.BRIT_1357" />
+      <item itemvalue="TestNG.functional_tests.BRIT_1391" />
+      <item itemvalue="TestNG.functional_tests.BRIT_1379" />
+      <item itemvalue="TestNG.functional_tests.BRIT_1305" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.functional_tests.Test" />
-        <item itemvalue="TestNG.Login.login" />
-        <item itemvalue="TestNG.LachinTestCases.userShouldNotImport" />
-        <item itemvalue="TestNG.functional_tests.a" />
-        <item itemvalue="TestNG.LachinTestCases.userIsAbleToClickCancel" />
+        <item itemvalue="TestNG.functional_tests.BRIT_1305" />
+        <item itemvalue="TestNG.functional_tests.BRIT_1379" />
+        <item itemvalue="TestNG.functional_tests.BRIT_1391" />
+        <item itemvalue="TestNG.functional_tests.BRIT_1357" />
+        <item itemvalue="TestNG.functional_tests.BRIT_1343" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -419,42 +604,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LachinTestCases_userIsAbleToClickCancel - 2019.02.03 at 18h 09m 28s.xml">
-      <configuration name="LachinTestCases.userIsAbleToClickCancel" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1357 - 2019.02.08 at 15h 07m 14s.xml">
+      <configuration name="functional_tests.BRIT_1357" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LachinTestCases_userIsAbleToClickCancel - 2019.02.03 at 18h 12m 16s.xml">
-      <configuration name="LachinTestCases.userIsAbleToClickCancel" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1391 - 2019.02.08 at 15h 11m 37s.xml">
+      <configuration name="functional_tests.BRIT_1391" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="functional_tests_a - 2019.02.05 at 16h 08m 15s.xml">
-      <configuration name="functional_tests.a" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1343 - 2019.02.08 at 15h 11m 50s.xml">
+      <configuration name="functional_tests.BRIT_1343" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LachinTestCases_userShouldNotImport - 2019.02.05 at 16h 11m 08s.xml">
-      <configuration name="LachinTestCases.userShouldNotImport" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1391 - 2019.02.08 at 15h 18m 15s.xml">
+      <configuration name="functional_tests.BRIT_1391" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="functional_tests_Test - 2019.02.05 at 16h 17m 48s.xml">
-      <configuration name="functional_tests.Test" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1391 - 2019.02.08 at 15h 20m 24s.xml">
+      <configuration name="functional_tests.BRIT_1391" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="functional_tests_Test - 2019.02.05 at 16h 18m 26s.xml">
-      <configuration name="functional_tests.Test" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1391 - 2019.02.08 at 15h 21m 05s.xml">
+      <configuration name="functional_tests.BRIT_1391" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="functional_tests_Test - 2019.02.05 at 16h 18m 40s.xml">
-      <configuration name="functional_tests.Test" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1391 - 2019.02.08 at 15h 25m 17s.xml">
+      <configuration name="functional_tests.BRIT_1391" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LachinTestCases_userShouldNotImport - 2019.02.05 at 16h 20m 22s.xml">
-      <configuration name="LachinTestCases.userShouldNotImport" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1391 - 2019.02.08 at 15h 28m 56s.xml">
+      <configuration name="functional_tests.BRIT_1391" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="functional_tests_Test - 2019.02.05 at 16h 20m 45s.xml">
-      <configuration name="functional_tests.Test" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1391 - 2019.02.08 at 15h 32m 19s.xml">
+      <configuration name="functional_tests.BRIT_1391" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Login_login - 2019.02.05 at 16h 20m 59s.xml">
-      <configuration name="Login.login" configurationId="TestNG" />
+    <history-entry file="functional_tests_BRIT_1379 - 2019.02.08 at 15h 33m 37s.xml">
+      <configuration name="functional_tests.BRIT_1379" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="965" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32844934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -463,15 +647,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3856988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28064147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32681242" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32502708" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32302406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -483,197 +667,23 @@
       <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Revision Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First Revision Commit" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java</url>
-          <line>9</line>
-          <properties class="com.contacts.tests.functionality2.Lachin.functional_tests.functional_tests" method="Test">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Cheris/smoke_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Cheris/functional_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Cheris/regression_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/smoke_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/regression_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/smoke_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/smoke_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/functional_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/regression_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/smoke_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/regression_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/functional_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/BrowserUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/TopNavigationBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/functional_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/HelpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/smoke_tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/smoke_tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/functional_tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/regression_tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/smoke_tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/regression_tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/functional_tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/functional_tests.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -681,64 +691,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/LandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="15" selection-start-line="7" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/LandingPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/pages/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="79" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,12 +746,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/functional_tests/functional_tests.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests/regression_tests.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/smoke_tests/smoke_tests.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/regression_tests/regression_tests.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -806,53 +759,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/utilities/TestBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/tests/LachinTestCases.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/tests/Login.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/HelpPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/CalendarPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/smoke_tests/smoke_tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2529#2530#0" expanded="true" />
-            <element signature="e#2559#2560#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/utilities/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="615">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/CalendarListViewPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/SampleTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/tests/LachinTestCases.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="330">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests/regression_tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/TopNavigationBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/BrowserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2066">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportUserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="133" column="89" selection-start-line="133" selection-start-column="89" selection-end-line="133" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/tests/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/Said/Brite837.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="3620">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
           </folding>
         </state>
       </provider>

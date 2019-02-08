@@ -46,6 +46,8 @@ public interface ApplicationConstants {
     String SEE_DETAILS_BUTTON = "See details";
     String UNCAUGHT_EVENT_SETTINGS_CHANGED_MESSAGE = "Uncaught event settings_changed inappropriate in current state previewing";
     String OK_BUTTON = "Ok";
+    String CONTACTS = "Contacts";
+    String ODOOHEADER="How to import data into Odoo";
 
 
 }
