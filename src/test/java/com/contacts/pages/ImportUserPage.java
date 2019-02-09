@@ -44,6 +44,13 @@ public  class ImportUserPage {
     @FindBy(xpath = "//button[@class='btn btn-sm btn-primary o_import_button o_import_validate']")
     public WebElement disabledTestImportButton;
 
+    @FindBy(xpath = "//button[@class='btn btn-sm btn-default o_import_cancel']")
+    public WebElement cancelButtonInImportPage;
+
+    @FindBy(xpath = "(//div/ul/li/a[@class='ripple internal reference'])[1]")
+    public WebElement howToStart;
+
+
     @FindBy(css = "button[class*='btn btn-sm btn-default o_import_cancel']")
     public WebElement cancelButton;
 

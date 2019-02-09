@@ -20,7 +20,7 @@ public class functional_tests extends TestBase {
     @Test
     public void BRIT_1305() {
         pages.importuserPage().login();
-        extentLogger = report.createTest("BRIT-1305 Verify that InventoryUser3 should NOT be able to import any file from “Contacts” tab");
+        extentLogger = report.createTest("BRIT-1305 Verify that InventoryUser3 should be able to click on Load File button");
         extentLogger.info("1.Click on “Contacts” tab on upper left corner");
         extentLogger.info("Expected Result:System should display Contacts page");
         pages.importuserPage().contactsTab.click();
@@ -33,15 +33,13 @@ public class functional_tests extends TestBase {
         extentLogger.info("Expected Result: InventoryUser3 should be able to click on Load File");
         pages.importuserPage().loadFileTab.click();
 
-        extentLogger.info("4.Disabled import");
-        extentLogger.info("Expected Result:InventoryUser3 should NOT be able to import any file ");
-        pages.importuserPage().importdisabled.isEnabled();
+
     }
 
     @Test
     public void BRIT_1311() {
         pages.importuserPage().login();
-        extentLogger = report.createTest("BRIT-1311 Verify that InventoryUser3 should NOT be able to click on “Test Import”");
+        extentLogger = report.createTest("BRIT-1311 Verify that InventoryUser3 should be able to cancel while in import page");
         extentLogger.info("1.Click on “Contacts” tab on upper left corner");
         extentLogger.info("Expected Result:System should display Contacts page");
         pages.importuserPage().contactsTab.click();
@@ -50,9 +48,10 @@ public class functional_tests extends TestBase {
         extentLogger.info("Expected Result: InventoryUser3 should be able to click on Import tab");
         pages.importuserPage().importTab.click();
 
-        extentLogger.info("3.“Test Import” tab is NOT clickable");
-        extentLogger.info("Expected Result: InventoryUser3 should NOT be able to click on Test Import tab");
-        Assert.assertTrue(pages.importuserPage().disabledTestImportButton.isEnabled());
+
+        extentLogger.info("3.Verify cancel button is clickable");
+        extentLogger.info("Expected Result: InventoryUser3 should be able to click to cancel button");
+        pages.importuserPage().cancelButtonInImportPage.click();
 
 
     }
@@ -60,7 +59,7 @@ public class functional_tests extends TestBase {
     @Test
     public void BRIT_1323() {
         pages.importuserPage().login();
-        extentLogger = report.createTest("BRIT-1323 Verify that InventoryUser3 is able to click on “Cancel” button from “Contacts/Import a File” page");
+        extentLogger = report.createTest("BRIT-1323 Verify that InventoryUser3 is able to click on “Cancel” botton and see Contacts header");
         extentLogger.info("1.Click on “Contacts” tab on upper left corner");
         wait(5);
         extentLogger.info("Expected Result:System should display Contacts page");
@@ -81,7 +80,7 @@ public class functional_tests extends TestBase {
         wait(5);
         System.out.println(pages.importuserPage().contactsHeaderrr.getText());
 
-        Assert.assertEquals(pages.importuserPage().contactsHeaderrr.getText(),CONTACTS); //NOT Working
+        Assert.assertEquals(pages.importuserPage().contactsHeaderrr.getText(), CONTACTS);
 
     }
 
@@ -105,7 +104,7 @@ public class functional_tests extends TestBase {
 
         pages.importuserPage().helpIcon.click();
         wait(2);
-       // String target = driver.getTitle();
+        // String target = driver.getTitle();
         String targetTitle = "How to import data into Odoo — Odoo 11.0 documentation";
         switchToWindow(targetTitle);
 
@@ -115,13 +114,13 @@ public class functional_tests extends TestBase {
 
         wait(2);
         System.out.println(pages.importuserPage().odooHeader.getText());
-        Assert.assertEquals(pages.importuserPage().odooHeader.getText(),ODOOHEADER); //Not working
+        Assert.assertEquals(pages.importuserPage().odooHeader.getText(), ODOOHEADER);
     }
 
     @Test
     public void BRIT_1357() {
         pages.importuserPage().login();
-        extentLogger = report.createTest("BRIT-1357 Verify that InventoryUser3 should NOT be able to click on “Reload File”");
+        extentLogger = report.createTest("BRIT-1357 Verify that InventoryUser3 should be able to click on 'How to start' button from Odoo import page");
         extentLogger.info("1.Click on “Contacts” tab on upper left corner");
         extentLogger.info("Expected Result:System should display Contacts page");
         pages.importuserPage().contactsTab.click();
@@ -130,10 +129,20 @@ public class functional_tests extends TestBase {
         extentLogger.info("Expected Result: InventoryUser3 should be able to click on Import tab");
         pages.importuserPage().importTab.click();
 
-        extentLogger.info("3.Click on “Reload File”");
-        extentLogger.info("Expected Result: 'Reload File' tab should be disabled");
-        pages.importuserPage().reloadFileButton.click();
-        Assert.assertTrue(pages.importuserPage().reloadFileButton.isEnabled());
+        extentLogger.info("3.'Help' icon should be displayed on upper right side");
+        extentLogger.info("Expected Result: InventoryUser3 should be able to click on 'Help' button on upper right side");
+
+        pages.importuserPage().helpIcon.click();
+        wait(2);
+
+        String targetTitle = "How to import data into Odoo — Odoo 11.0 documentation";
+        switchToWindow(targetTitle);
+
+
+        extentLogger.info("4.'How to start' button should be displayed on left side");
+        extentLogger.info("Expected Result: InventoryUser3 should be able to click on 'How to start botton' ");
+        pages.importuserPage().howToStart.click();
+
 
     }
 
@@ -172,9 +181,13 @@ public class functional_tests extends TestBase {
         extentLogger.info("6.InventoryUser3 should enter phone number ");
         extentLogger.info("Expected Result:InventoryUser3 should be able to type phone number in the given field");
         pages.importuserPage().phoneTab.sendKeys("2813252933");
+
+
+        extentLogger.info("7.Click create ");
+        extentLogger.info("Expected Result: click create");
         pages.importuserPage().createCompanyButton.click();
 
-        extentLogger.info("7.Enter Contact Name ,save and close");
+        extentLogger.info("8.Enter Contact Name ,save and close");
         extentLogger.info("Expected Result:InventoryUser3 should be able to type contact name, save and close the window");
         pages.importuserPage().contactNameTab.sendKeys("Jasmina Jones");
         pages.importuserPage().saveAndClose.click();
@@ -196,15 +209,19 @@ public class functional_tests extends TestBase {
         extentLogger.info("3.InventoryUser3 click radio button 'Company' ");
         extentLogger.info("Expected Result:InventoryUser3 should be able to click radio button 'Company' ");
         pages.importuserPage().companyRadioButton.click();
+
+
+        extentLogger.info("4.Click on “Create” without providing company name, save and close, see error message");
+        extentLogger.info("Expected Result:InventoryUser3 should be able to see error message: “The following fields are invalid: Name” ");
         pages.importuserPage().createCompanyButton.click();
         pages.importuserPage().saveAndClose.click();
 
     }
 
     @Test
-    public void BRIT_1379() { // upload window is not inspectable
+    public void BRIT_1379() {
         pages.importuserPage().login();
-        extentLogger = report.createTest("BRIT-1379 Verify that InventoryUser3 is able to upload image of the company");
+        extentLogger = report.createTest("BRIT-1379 Verify that InventoryUser3 is able to click upload image of the company");
 
         extentLogger.info("1.Click on 'Contacts' tab on upper left corner");
         extentLogger.info("Expected Result:System should display Contacts page ");
@@ -238,19 +255,8 @@ public class functional_tests extends TestBase {
         pages.importuserPage().createCompanyButton.click();
 
         extentLogger.info("7.Click on “Image” icon on top left ");
-        extentLogger.info("Expected Result:InventoryUser3 should be able to upload picture locally");
+        extentLogger.info("Expected Result:InventoryUser3 should be able to click upload picture");
         pages.importuserPage().pencilIcon.click();
-
-
-
-        extentLogger.info("8.Click “Create” ");
-        extentLogger.info("Expected Result: Click “Create” ");
-        pages.importuserPage().createCompanyButton.click();
-
-        extentLogger.info("9.Enter Contact Name ,save and close ");
-        extentLogger.info("Expected Result: nventoryUser3 should be able to type contact name, save and close the window ");
-        pages.importuserPage().contactNametabnew.sendKeys("Jasmina LLC");
-        pages.importuserPage().saveAndClose.click();
 
 
     }
@@ -258,7 +264,7 @@ public class functional_tests extends TestBase {
     @Test
     public void BRIT_1384() {
         pages.importuserPage().login();
-        extentLogger = report.createTest("BRIT-1384 Verify that InventoryUser3 is able to delete uploaded image of the company");
+        extentLogger = report.createTest("BRIT-1384 Verify that InventoryUser3 is able to click to delete button from an image icon of the company");
 
         extentLogger.info("1.Click on 'Contacts' tab on upper left corner");
         extentLogger.info("Expected Result:System should display Contacts page ");
@@ -293,7 +299,7 @@ public class functional_tests extends TestBase {
         pages.importuserPage().phoneTab.sendKeys("2813252933");
 
         extentLogger.info("7.Click on “Image” icon on top left ");
-        extentLogger.info("Expected Result:InventoryUser3 should be able to DELETE company picture");
+        extentLogger.info("Expected Result:InventoryUser3 should be able to  click on DELETE icon ");
         pages.importuserPage().trashIcon.click();
     }
 
@@ -311,7 +317,7 @@ public class functional_tests extends TestBase {
         pages.importuserPage().createButton.click();
 
 
-        extentLogger.info("3.InventoryUser3 click radio button 'Company' ");
+        extentLogger.info("3.InventoryUser3 click on 'Company' radio button ");
         extentLogger.info("Expected Result:InventoryUser3 should be able to click radio button 'Company' ");
         pages.importuserPage().companyRadioButton.click();
 
