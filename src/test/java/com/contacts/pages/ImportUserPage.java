@@ -13,6 +13,7 @@ import static com.contacts.utilities.BrowserUtils.waitForClickablility;
 public  class ImportUserPage {
     //2.
     public ImportUserPage() {
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

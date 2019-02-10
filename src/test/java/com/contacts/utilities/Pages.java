@@ -5,14 +5,15 @@ import com.contacts.pages.*;
 public class Pages {
 
     private LoginPage login;
-    private CalendarPage calendar;
-    private CalendarListViewPage calendarListViewPage;
+    private SystemNavigatesToPage systemNavigatesToPage;
     private TopNavigationBar topNavigationBar;
 
     private SearchPage searchPage;
     private HelpPage helpPage;
     private ImportUserPage importuserPage;
-    //-------------------------------------------------------
+
+
+    //========================================================================================================================
 
     // 3.we just created
     public ImportUserPage importuserPage(){
@@ -29,20 +30,13 @@ public class Pages {
         return login;
     }
 
-    public CalendarPage calendar(){
-        if(calendar==null){
-            calendar = new CalendarPage();
+    public SystemNavigatesToPage systemNavigatesToPage(){
+        if(systemNavigatesToPage == null){
+            systemNavigatesToPage = new SystemNavigatesToPage();
         }
-        return calendar;
+        return systemNavigatesToPage;
     }
 
-
-    public CalendarListViewPage calendarListViewPage(){
-        if(calendarListViewPage==null){
-            calendarListViewPage = new CalendarListViewPage();
-        }
-        return calendarListViewPage;
-    }
 
     public TopNavigationBar topNavigationBar(){
         if(topNavigationBar==null){
@@ -51,14 +45,6 @@ public class Pages {
         return topNavigationBar;
     }
 
-
-
-    public SearchPage searchPage(){
-        if(searchPage==null){
-            searchPage=new SearchPage();
-        }
-        return searchPage;
-    }
 
     public HelpPage helpPage(){
         if(helpPage==null){
