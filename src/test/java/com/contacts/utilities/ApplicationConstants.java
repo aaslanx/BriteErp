@@ -55,7 +55,7 @@ public interface ApplicationConstants {
     String MAIL_DROPDOWN = "All Chat Channels\n" +
             "New message";
     String CONVERSATION_OPENS = "SalesManager4";
-
+    String CONTACTS_TITLE = "Contacts - Odoo";
 
 
 }

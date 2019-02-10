@@ -7,7 +7,7 @@ public class Pages {
     private LoginPage login;
     private SystemNavigatesToPage systemNavigatesToPage;
     private TopNavigationBar topNavigationBar;
-
+    private ContactLoginPage contactLoginPage;
     private SearchPage searchPage;
     private HelpPage helpPage;
     private ImportUserPage importuserPage;
@@ -54,5 +54,10 @@ public class Pages {
     }
 
 
-
+    public ContactLoginPage contactLoginPage() {
+        if(contactLoginPage==null){
+            contactLoginPage=new ContactLoginPage();
+        }
+        return contactLoginPage;
+    }
 }
