@@ -12,7 +12,16 @@ public class Pages {
     private SearchPage searchPage;
     private HelpPage helpPage;
     private ImportUserPage importuserPage;
+
+     private ContactsPage contactsPage;
     //-------------------------------------------------------
+
+
+    public ContactsPage onContactsPage() {
+        return contactsPage==null?new ContactsPage():contactsPage;
+    }
+
+
 
     // 3.we just created
     public ImportUserPage importuserPage(){

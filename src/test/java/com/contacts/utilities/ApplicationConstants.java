@@ -49,6 +49,15 @@ public interface ApplicationConstants {
     String CONTACTS = "Contacts";
     String ODOOHEADER="How to import data into Odoo";
 
+    // -- by Albert
+
+    String CWD = System.getProperty("user.dir");
+    String uploadFile_XLSX = "/UploadFiles/upload.xlsx";
+    String uploadFile_TXT = "/UploadFiles/upload.txt";
+    String uploadFile_XLSX_Unmatch_Row = "/UploadFiles/upload_unmatch.xlsx";
+    String uploadFile_XLSX_Unknown_Row = "/UploadFiles/upload_unknown.xlsx";
+    String uploadFile_unKnows = "/UploadFiles/upload.albert";
+
 
 
 }
