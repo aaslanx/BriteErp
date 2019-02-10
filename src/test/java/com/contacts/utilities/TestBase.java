@@ -3,6 +3,7 @@ package com.contacts.utilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.contacts.pages.NewContact;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -21,6 +22,7 @@ public class TestBase extends BrowserUtils implements ApplicationConstants{
     protected static ExtentReports report;
     protected static ExtentHtmlReporter htmlReporter;
     protected static ExtentTest extentLogger;
+    protected NewContact newContact;
 
     @BeforeMethod
     public void setupMethod() {
@@ -63,11 +65,15 @@ public class TestBase extends BrowserUtils implements ApplicationConstants{
         htmlReporter.config().setReportName("BriteErp Automated Test Reports");
 //        htmlReporter.config().setTheme(Theme.DARK);
 
+        newContact=newContact==null?new NewContact():newContact;
+
+
     }
 
     @AfterTest
     public void tearDownTest() {
         report.flush();
+        newContact = new NewContact();
     }
 
 

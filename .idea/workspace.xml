@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327fe27f-45c3-4fdb-80d9-3ecbe314aaa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BriteErp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BriteErp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,22 +18,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="945">
+              <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/NewContact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -52,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="900">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -61,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1946">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="2400">
+              <caret line="161" column="59" selection-start-line="161" selection-start-column="59" selection-end-line="161" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,14 +76,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding>
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -114,7 +124,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/oddo/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/BrowserUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ConfigurationReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Driver.java" />
@@ -138,10 +147,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportUserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/NewContact.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java" />
       </list>
     </option>
   </component>
@@ -161,7 +172,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="965" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -172,6 +183,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,7 +281,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,11 +400,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.functional_tests.BRIT_1305" />
       <item itemvalue="TestNG.functional_tests.BRIT_1343" />
       <item itemvalue="TestNG.functional_tests.BRIT_1357" />
-      <item itemvalue="TestNG.functional_tests.BRIT_1391" />
       <item itemvalue="TestNG.functional_tests.BRIT_1379" />
-      <item itemvalue="TestNG.functional_tests.BRIT_1305" />
+      <item itemvalue="TestNG.functional_tests.BRIT_1391" />
     </list>
     <recent_temporary>
       <list>
@@ -459,10 +470,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3383405" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18559219" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,7 +487,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32803467" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32692307" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32302406" />
@@ -500,7 +511,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/smoke_tests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/functional_tests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Natalya/regression_tests.java" />
@@ -627,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests/regression_tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -677,40 +680,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="945">
+          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/CalendarPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1946">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="840">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -724,15 +702,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="900">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="161" column="59" selection-start-line="161" selection-start-column="59" selection-end-line="161" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/CalendarPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/NewContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
         </state>
       </provider>
     </entry>

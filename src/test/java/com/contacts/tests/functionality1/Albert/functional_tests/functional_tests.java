@@ -145,18 +145,21 @@ public class functional_tests extends TestBase{
 
     @Test (testName = "BRIT 2895",priority = 6)
     public void newContact() {
-        String file = CWD + uploadFile_XLSX;
 
         extentLogger = report.createTest("|  TEST  -->  BRIT-2895  |\nManager should be able to create a new contact with appropriate information");
         pages.onContactsPage().login();
-        extentLogger.info("STEP 1 | Pre Condition \n--> Contacts Page Loaded \nUpload file: "+ file);
+        extentLogger.info("STEP 1 | Pre Condition \n--> Contacts Page Loaded \nCreating new Contact: "+ newContact.n_name);
 
         extentLogger.info("STEP 2 | Click CREATE button");
         pages.onContactsPage().createButton.click();
 
         extentLogger.info("STEP 3 | Fill the Fields");
-        pages.onContactsPage().importUploadBox.sendKeys(file);
-        pages.onContactsPage().loadFileButton.sendKeys(file);
+        pages.onContactsPage().field_Name.sendKeys(newContact.n_name);
+        pages.onContactsPage().field_Street.sendKeys(newContact.n_street);
+        pages.onContactsPage().field_City.sendKeys(newContact.n_city);
+        pages.onContactsPage().field_State.sendKeys(newContact.n_state);
+        pages.onContactsPage().field_ZipCode.sendKeys(newContact.n_zipcode);
+        pages.onContactsPage().field_Country.sendKeys("USA");
 
         pages.onContactsPage().loadFileButton.click();
 
