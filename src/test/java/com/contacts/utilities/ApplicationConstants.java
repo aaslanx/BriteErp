@@ -59,5 +59,12 @@ public interface ApplicationConstants {
     String CONVERSATION_OPENS = "SalesManager4";
     String CONTACTS_TITLE = "Contacts - Odoo";
 
+    String CWD = System.getProperty("user.dir");
+    String uploadFile_XLSX = "/UploadFiles/upload.xlsx";
+    String uploadFile_TXT = "/UploadFiles/upload.txt";
+    String uploadFile_XLSX_Unmatch_Row = "/UploadFiles/upload_unmatch.xlsx";
+    String uploadFile_XLSX_Unknown_Row = "/UploadFiles/upload_unknown.xlsx";
+
+
 
 }

@@ -6,14 +6,18 @@ public class Pages {
 
     private LoginPage login;
     private SystemNavigatesToPage systemNavigatesToPage;
-    private TopNavigationBar topNavigationBar;
     private ContactLoginPage contactLoginPage;
     private ContactsPage contactsPage;
-    private SearchPage searchPage;
-    private HelpPage helpPage;
     private ImportUserPage importuserPage;
     private HomePage homePage;
     //-------------------------------------------------------
+
+
+    public ContactsPage onContactsPage() {
+        return contactsPage==null?new ContactsPage():contactsPage;
+    }
+
+
 
     // 3.we just created
     public ImportUserPage importuserPage(){
@@ -36,31 +40,6 @@ public class Pages {
         }
         return systemNavigatesToPage;
     }
-
-
-    public TopNavigationBar topNavigationBar(){
-        if(topNavigationBar==null){
-            topNavigationBar = new TopNavigationBar();
-        }
-        return topNavigationBar;
-    }
-
-
-
-    public SearchPage searchPage(){
-        if(searchPage==null){
-            searchPage=new SearchPage();
-        }
-        return searchPage;
-    }
-
-    public HelpPage helpPage(){
-        if(helpPage==null){
-            helpPage=new HelpPage();
-        }
-        return helpPage;
-    }
-
 
     public ContactLoginPage contactLoginPage() {
         if(contactLoginPage==null){
