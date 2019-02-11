@@ -55,9 +55,8 @@ public class functional_tests extends TestBase {
 
         extentLogger.info("2. Scroll down to ensure the contacts are loaded and displayed on the page and page navigation tools are present");
         extentLogger.info("Expected Result: 80 contacts must be loaded per one page with side scroll bar. Total number of contacts must be clearly visible, with arrows allowing scrolling between pages ");
-        //((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
-        //Assert.assertEquals(pages.contactsPage().contactsPerPage.getText(),NUMBER_OF_CONTACTS_PER_PAGE);
-        // ....unsure how to scroll as cannot find the scroll bar element.
+
+         scrollToElement(pages.contactsPage().lastContactForScrolling);
 
         extentLogger.info("3. Click on LIST icon on the right hand side to change the layout of the page and the way contacts are displayed");
         extentLogger.info("Expected Result: Upon clicking on the LIST icon on the right hand side of the page, the layout of the page is updated so the contacts are displayed as a list instead of a default table view");
@@ -118,14 +117,13 @@ public class functional_tests extends TestBase {
         pages.contactsPage().createBankAcctButton.click();
 
         extentLogger.info("5. Populate required fields with valid information");
-        extentLogger.info("Test data:   Bank Account: 000123456789\n" +
-                "ABA/Routing: 322281617\n" +
-                "Bank: Seven Oaks");
+        extentLogger.info("Test data: Bank Account: 000123456789 ABA/Routing: 322281617 Bank: Seven Oaks");
         extentLogger.info("Expected result: User is able to fill in required details for Acct. number, ABA/Routing, and select a Bank name from the drop-down menu");
         pages.contactsPage().accountNumberField.sendKeys("000123456789");
         pages.contactsPage().routingNumberField.sendKeys("322281617");
         pages.contactsPage().bankNameField.sendKeys("Seven Oaks");
-        pages.contactsPage().bankNameField.sendKeys(Keys.ENTER);
+        pages.contactsPage().sevenOaksField.click();
+
 //STUCK HERE since cannot add bank name details using dropdown or just typing (xpath issue???)
     }
 
@@ -160,9 +158,7 @@ public class functional_tests extends TestBase {
         pages.contactsPage().createBankAcctButton.click();
 
         extentLogger.info("5. Populate required fields with valid information");
-        extentLogger.info("Test data:   Bank Account: 12345\n" +
-                "ABA/Routing: 322281617\n" +
-                "Bank: Seven Oaks, or no bank at all");
+        extentLogger.info("Test data:   Bank Account: 12345 ABA/Routing: 322281617 Bank: Seven Oaks, or no bank at all");
         extentLogger.info("Expected result: User is able to fill in required details for Acct. number, ABA/Routing, and select a Bank name from the drop-down menu");
         pages.contactsPage().accountNumberField.sendKeys("12345");
         pages.contactsPage().routingNumberField.sendKeys("322281617");
@@ -204,9 +200,7 @@ public class functional_tests extends TestBase {
         pages.contactsPage().createBankAcctButton.click();
 
         extentLogger.info("5. Populate required fields with valid information");
-        extentLogger.info("Test data:   Bank Account: 123456789000\n" +
-                "ABA/Routing: 12345\n" +
-                "Bank: Seven Oaks, or no bank at all");
+        extentLogger.info("Test data:   Bank Account: 123456789000 ABA/Routing: 12345 Bank: Seven Oaks, or no bank at all");
         extentLogger.info("Expected result: User is able to fill in required details for Acct. number, ABA/Routing, and select a Bank name from the drop-down menu");
         pages.contactsPage().accountNumberField.sendKeys("123456789000");
         pages.contactsPage().routingNumberField.sendKeys("12345");
@@ -249,14 +243,14 @@ public class functional_tests extends TestBase {
         pages.contactsPage().createBankAcctButton.click();
 
         extentLogger.info("5. Populate required fields with valid but duplicate information,entering same bank account number as already entered for this user");
-        extentLogger.info("Test data:   Bank Account: 000123456789\n" +
-                "ABA/Routing: 322281617\n" +
-                "Bank: Seven Oaks");
+        extentLogger.info("Test data:   Bank Account: 000123456789 ABA/Routing: 322281617 Bank: Seven Oaks");
         extentLogger.info("Expected result: User should not be able to save new account information if data is not unique for each account. Odoo Server validation error must show up with message: \"Account Number must be unique\"");
         pages.contactsPage().accountNumberField.sendKeys("000123456789");
         pages.contactsPage().routingNumberField.sendKeys("322281617");
-        pages.contactsPage().bankNameField.sendKeys("Seven Oaks");
-        pages.contactsPage().bankNameField.sendKeys(Keys.ENTER);
+        pages.contactsPage().bankNameField.sendKeys("Seven Oaks" );
+        pages.contactsPage().sevenOaksField.click();
+
+
 //STUCK HERE since cannot add bank name details using dropdown or just typing (xpath issue???)
 
 

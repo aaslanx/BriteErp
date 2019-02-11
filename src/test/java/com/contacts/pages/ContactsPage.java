@@ -53,9 +53,11 @@ public class ContactsPage {
     @FindBy (xpath = "//input[@class='o_field_char o_field_widget o_input']")
     public WebElement routingNumberField;
 
-    @FindBy (xpath = "//div[@name='bank_id']")
-    //@FindBy (xpath = "//div[@class='o_field_widget o_field_many2one']/div/input']")
+    @FindBy (xpath = "//div[@class='o_field_widget o_field_many2one']/div/input")
     public WebElement bankNameField;
+
+    @FindBy(xpath = "(//body/ul)/li[2]/a")
+    public WebElement sevenOaksField;
 
     @FindBy (xpath = "//div[@class='o_field_widget o_field_many2one']/div/span")
     public WebElement bankNameDropdownButton;
@@ -63,5 +65,7 @@ public class ContactsPage {
     @FindBy (css = "button.btn.btn-primary.btn-sm.o_form_button_save")
     public WebElement saveBankDetails;
 
+    @FindBy (css = ".o_kanban_view.o_res_partner_kanban.o_kanban_ungrouped>div:last-of-type")
+    public WebElement lastContactForScrolling;
 
 }

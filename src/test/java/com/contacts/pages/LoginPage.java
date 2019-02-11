@@ -19,7 +19,6 @@ public class LoginPage {
     @FindBy(xpath = "//div[@class='form-group field-login']/input")
     public WebElement emailBox;
 
-
     @FindBy(xpath = "//div[@class='form-group field-password']/input")
     public WebElement passwordBox;
 
