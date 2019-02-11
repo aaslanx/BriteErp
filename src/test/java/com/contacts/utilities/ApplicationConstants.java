@@ -48,6 +48,8 @@ public interface ApplicationConstants {
     String OK_BUTTON = "Ok";
     String CONTACTS = "Contacts";
     String ODOOHEADER="How to import data into Odoo";
+    String NUMBER_OF_CONTACTS_PER_PAGE = "1-80";
+
     String HEADER_OF_CONTACT = "ephrem ketema";
     String HEADER_SEND_SMS = "Send SMS";
     String DIALOG_WARNING = "The number dagfda is not correct. It must be in international format (E.164). No SMS were sent.";

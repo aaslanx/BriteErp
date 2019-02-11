@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import static com.contacts.utilities.BrowserUtils.waitForClickablility;
 import static com.contacts.utilities.BrowserUtils.waitForPageToLoad;
 
 public class LoginPage {
@@ -31,6 +32,9 @@ public class LoginPage {
 
 
     public void userLogin(){
+        Driver.getDriver().get(ConfigurationReader.getProperties("url"));
+        waitForClickablility (briteButton, 5);
+        briteButton.click ();
         emailBox.sendKeys(ConfigurationReader.getProperties("usernameUser"));
         passwordBox.sendKeys(ConfigurationReader.getProperties("passwordUser"));
         login_button.click();

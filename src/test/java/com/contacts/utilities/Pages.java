@@ -8,12 +8,12 @@ public class Pages {
     private SystemNavigatesToPage systemNavigatesToPage;
     private TopNavigationBar topNavigationBar;
     private ContactLoginPage contactLoginPage;
+    private ContactsPage contactsPage;
     private SearchPage searchPage;
     private HelpPage helpPage;
     private ImportUserPage importuserPage;
-
-
-    //========================================================================================================================
+    private HomePage homePage;
+    //-------------------------------------------------------
 
     // 3.we just created
     public ImportUserPage importuserPage(){
@@ -46,6 +46,14 @@ public class Pages {
     }
 
 
+
+    public SearchPage searchPage(){
+        if(searchPage==null){
+            searchPage=new SearchPage();
+        }
+        return searchPage;
+    }
+
     public HelpPage helpPage(){
         if(helpPage==null){
             helpPage=new HelpPage();
@@ -60,4 +68,19 @@ public class Pages {
         }
         return contactLoginPage;
     }
+
+    public ContactsPage contactsPage(){
+        if(contactsPage==null){
+            contactsPage = new ContactsPage();
+        }
+        return contactsPage;
+    }
+
+    public HomePage homePage(){
+        if(homePage==null){
+            homePage = new HomePage();
+        }
+        return homePage;
+    }
+
 }
