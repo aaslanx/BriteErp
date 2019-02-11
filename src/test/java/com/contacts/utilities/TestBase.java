@@ -46,7 +46,7 @@ public class TestBase extends BrowserUtils implements ApplicationConstants{
             extentLogger.skip("Test Case Skipped: " + result.getName());
         }
 
-//       Driver.closeDriver();
+       Driver.closeDriver();
     }
 
 

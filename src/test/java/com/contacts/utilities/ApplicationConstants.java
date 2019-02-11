@@ -56,7 +56,6 @@ public interface ApplicationConstants {
     String uploadFile_TXT = "/UploadFiles/upload.txt";
     String uploadFile_XLSX_Unmatch_Row = "/UploadFiles/upload_unmatch.xlsx";
     String uploadFile_XLSX_Unknown_Row = "/UploadFiles/upload_unknown.xlsx";
-    String uploadFile_unKnows = "/UploadFiles/upload.albert";
 
 
 
