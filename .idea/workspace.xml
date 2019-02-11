@@ -405,8 +405,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.functional_tests.BRIT_1942">
-    <configuration name="functional_tests.BRIT_1900" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.functional_tests.BRIT_1906">
+    <configuration name="functional_tests.BRIT_1906" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteErp" />
       <extension name="coverage">
         <pattern>
@@ -416,7 +416,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.contacts.tests.functionality2.Adilya.functional_tests" />
       <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality2.Adilya.functional_tests.functional_tests" />
-      <option name="METHOD_NAME" value="BRIT_1900" />
+      <option name="METHOD_NAME" value="BRIT_1906" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -497,19 +497,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.functional_tests.BRIT_1900" />
       <item itemvalue="TestNG.functional_tests.BRIT_1940" />
       <item itemvalue="TestNG.functional_tests.BRIT_1942" />
       <item itemvalue="TestNG.functional_tests.BRIT_1950" />
       <item itemvalue="TestNG.functional_tests.BRIT_1954" />
+      <item itemvalue="TestNG.functional_tests.BRIT_1906" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.functional_tests.BRIT_1906" />
         <item itemvalue="TestNG.functional_tests.BRIT_1942" />
         <item itemvalue="TestNG.functional_tests.BRIT_1954" />
         <item itemvalue="TestNG.functional_tests.BRIT_1950" />
         <item itemvalue="TestNG.functional_tests.BRIT_1940" />
-        <item itemvalue="TestNG.functional_tests.BRIT_1900" />
       </list>
     </recent_temporary>
   </component>
