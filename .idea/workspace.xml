@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327fe27f-45c3-4fdb-80d9-3ecbe314aaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UploadFiles/upload.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UploadFiles/upload.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UploadFiles/upload_unknown.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UploadFiles/upload_unmatch.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/contacts/pages/NewContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BriteErp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BriteErp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/pages/HelpPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/pages/SearchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/pages/TopNavigationBar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/BRIT837.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/BRIT837.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,104 +16,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/functional_tests/functional_tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportUserPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="38" column="29" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="38" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/NewContact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/SystemNavigatesToPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactLoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="88" column="81" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="81" />
+            <state relative-caret-position="-832">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="948" selection-start-line="948" selection-end-line="948" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/configuration.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/listeners/Retry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/listeners/RetryListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/IRetryAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/BRIT837.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="267" lean-forward="true" selection-start-line="253" selection-start-column="4" selection-end-line="267" />
             </state>
           </provider>
         </entry>
@@ -177,11 +162,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/NewContact.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java" />
         <option value="$PROJECT_DIR$/configuration.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/BRIT837.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/listeners/Retry.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/listeners/RetryListener.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java" />
       </list>
     </option>
   </component>
@@ -199,8 +188,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -211,7 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,6 +241,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="contacts" type="462c0819:PsiDirectoryNode" />
+              <item name="listeners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,62 +278,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="functionality1" type="462c0819:PsiDirectoryNode" />
-              <item name="Albert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="functionality1" type="462c0819:PsiDirectoryNode" />
-              <item name="Albert" type="462c0819:PsiDirectoryNode" />
-              <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="functionality2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="functionality2" type="462c0819:PsiDirectoryNode" />
-              <item name="Adilya" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="functionality2" type="462c0819:PsiDirectoryNode" />
-              <item name="Adilya" type="462c0819:PsiDirectoryNode" />
-              <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -347,7 +289,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,6 +297,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.contacts.listeners" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\saidy\IdeaProjects\BriteErp\src\test\java\com\contacts\tests\functionality2\Sergey" />
       <recent name="C:\Users\saidy\IdeaProjects\BriteErp\src\test\java\com\contacts\tests\functionality2\Lachin" />
@@ -375,7 +320,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.functional_tests.BRIT_1906">
+  <component name="RunManager" selected="TestNG./Users/aslan/IdeaProjects/BriteErp/testng.xml">
+    <configuration name="BRIT837" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteErp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.contacts.tests.functionality1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.contacts.tests.functionality1" />
+      <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality1.BRIT837" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/aslan/IdeaProjects/BriteErp/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteErp" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="functional_tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteErp" />
       <extension name="coverage">
@@ -428,56 +399,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functional_tests.newContact_name_Digits" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteErp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.contacts.tests.functionality1.Albert.functional_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.contacts.tests.functionality1.Albert.functional_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality1.Albert.functional_tests.functional_tests" />
-      <option name="METHOD_NAME" value="newContact_name_Digits" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="functional_tests.newContact_withoutinfo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteErp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.contacts.tests.functionality1.Albert.functional_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.contacts.tests.functionality1.Albert.functional_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.contacts.tests.functionality1.Albert.functional_tests.functional_tests" />
-      <option name="METHOD_NAME" value="newContact_withoutinfo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.functional_tests.editContact" />
-      <item itemvalue="TestNG.functional_tests.newContact_name_Digits" />
       <item itemvalue="TestNG.functional_tests" />
-      <item itemvalue="TestNG.functional_tests.newContact_withoutinfo" />
       <item itemvalue="TestNG.functional_tests.BRIT_1906" />
+      <item itemvalue="TestNG./Users/aslan/IdeaProjects/BriteErp/testng.xml" />
+      <item itemvalue="TestNG.BRIT837" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/aslan/IdeaProjects/BriteErp/testng.xml" />
+        <item itemvalue="TestNG.BRIT837" />
         <item itemvalue="TestNG.functional_tests.BRIT_1906" />
         <item itemvalue="TestNG.functional_tests" />
         <item itemvalue="TestNG.functional_tests.editContact" />
-        <item itemvalue="TestNG.functional_tests.newContact_withoutinfo" />
-        <item itemvalue="TestNG.functional_tests.newContact_name_Digits" />
       </list>
     </recent_temporary>
   </component>
@@ -503,41 +438,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="functional_tests_newContact_withoutinfo - 2019.02.10 at 21h 00m 38s.xml">
-      <configuration name="functional_tests.newContact_withoutinfo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="functional_tests - 2019.02.10 at 21h 19m 23s.xml">
-      <configuration name="functional_tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="functional_tests - 2019.02.10 at 21h 25m 23s.xml">
-      <configuration name="functional_tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="functional_tests - 2019.02.10 at 21h 53m 14s.xml">
-      <configuration name="functional_tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="functional_tests - 2019.02.10 at 21h 58m 37s.xml">
-      <configuration name="functional_tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="functional_tests_editContact - 2019.02.10 at 22h 03m 00s.xml">
-      <configuration name="functional_tests.editContact" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="functional_tests - 2019.02.10 at 22h 06m 34s.xml">
-      <configuration name="functional_tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="functional_tests_BRIT_1906 - 2019.02.10 at 23h 30m 58s.xml">
-      <configuration name="functional_tests.BRIT_1906" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="functional_tests - 2019.02.10 at 23h 32m 05s.xml">
       <configuration name="functional_tests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="functional_tests_BRIT_1906 - 2019.02.10 at 23h 34m 03s.xml">
       <configuration name="functional_tests.BRIT_1906" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_aslan_IdeaProjects_BriteErp_testng_xml - 2019.02.12 at 14h 06m 57s.xml">
+      <configuration name="/Users/aslan/IdeaProjects/BriteErp/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BRIT837 - 2019.02.12 at 14h 10m 17s.xml">
+      <configuration name="BRIT837" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_aslan_IdeaProjects_BriteErp_testng_xml - 2019.02.12 at 14h 20m 38s.xml">
+      <configuration name="/Users/aslan/IdeaProjects/BriteErp/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_aslan_IdeaProjects_BriteErp_testng_xml - 2019.02.12 at 14h 25m 52s.xml">
+      <configuration name="/Users/aslan/IdeaProjects/BriteErp/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_aslan_IdeaProjects_BriteErp_testng_xml - 2019.02.12 at 14h 26m 44s.xml">
+      <configuration name="/Users/aslan/IdeaProjects/BriteErp/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_aslan_IdeaProjects_BriteErp_testng_xml - 2019.02.12 at 14h 27m 41s.xml">
+      <configuration name="/Users/aslan/IdeaProjects/BriteErp/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_aslan_IdeaProjects_BriteErp_testng_xml - 2019.02.12 at 14h 56m 40s.xml">
+      <configuration name="/Users/aslan/IdeaProjects/BriteErp/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_aslan_IdeaProjects_BriteErp_testng_xml - 2019.02.12 at 14h 59m 31s.xml">
+      <configuration name="/Users/aslan/IdeaProjects/BriteErp/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2039072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4155937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,12 +481,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22257054" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22180916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30351907" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35811648" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32218093" />
@@ -604,11 +539,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Sergey/functional_tests.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/functional_tests.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/LandingPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddo/pages/HomePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/regression_tests/regression_tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -671,20 +601,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/SampleTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/Said/Brite837.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/BrowserUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests/regression_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -693,27 +609,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/CalendarPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -727,44 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="285" selection-start-line="285" selection-end-line="285" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/BRIT837.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactLoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
@@ -772,20 +633,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/HelpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/TopNavigationBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/HelpPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/TopNavigationBar.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/SystemNavigatesToPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -793,51 +642,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/SearchPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/NewContact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/functional_tests/functional_tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportUserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,20 +664,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/functional_tests/functional_tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="88" column="81" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="81" />
+        <state relative-caret-position="3630">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Adilya/functional_tests/functional_tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="155" column="84" selection-start-line="155" selection-start-column="84" selection-end-line="155" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/BrowserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4380">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/ApplicationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality2/Lachin/regression_tests/regression_tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ImportUserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="134" column="42" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/pages/ContactsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/Albert/functional_tests/functional_tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="267" lean-forward="true" selection-start-line="253" selection-start-column="4" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="948" selection-start-line="948" selection-end-line="948" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/IRetryAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/tests/functionality1/BRIT837.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/listeners/RetryListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/contacts/listeners/Retry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
