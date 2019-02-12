@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <listeners>
+        <listener class-name="com.contacts.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="Albert">
+        <classes>
+            <class name="com.contacts.tests.functionality1.BRIT837" />
+        </classes>
+    </test>
+
+
+</suite>
